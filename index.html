@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Victoria's Website</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("button").click(function)
+                }); 
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+             <nav>
+                 <header>Welcome to my Website!</header>
+                  <style>
+            body {
+                background-image: url("https://media3.giphy.com/media/FlodpfQUBSp20/giphy.gif");
+                color: dodgerblue;
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: lighter;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(10, 7, 17);
+                margin-top:50px;
+                margin-bottom:50px;
+                border-radius:25px;
+                display: flex;
+                padding: 10px;
+                outline-style: double;
+                outline-offset: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: slateblue;
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: slateblue;
+                font-size:20px;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(10, 7, 17);
+                display: flex;
+                outline-style: double;
+                max-width: 100000px;
+                align-items: center;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 30;
+                padding:70px;
+                font-size:20px;
+                margin-right:100px;
+            }
+            .interests header {
+                font-size: 1.5em;
+                font-weight:bold;
+            
+            }
+            .moving-text {
+                font-family: fantasy;
+                margin-top:25px;
+                font-weight: lighter;
+                font-size: 20px;
+                color: rgb(102, 113, 255);
+                
+                
+            }
+        </style>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="portfolio.html">Portfolio</a></li>
+                 </ul>
+             </nav>
+         
+             <main>
+                 <div class="sidebar">
+                     <img src="https://lh3.googleusercontent.com/-ALWz3XjeVbc/Wxlsi9pH-EI/AAAAAAAAAX4/MXUAPrJSBQIf6ekZR3Tbd0zFETsVUd3sgCL0BGAs/w530-d-h707-n-rw/PicsArt_06-06-01.53.50.png">    
+                 </div>
+                 
+                 <div class="content">
+                    <header>Victoria Johnson</header>
+                    <p>
+                        Student at Fontainebleau High
+                    </p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Video Games</li>
+                            <li>Working</li>
+                            <li>Watching Anime</li>
+                            <li>Learning new Skills</li>
+                        </ul>
+                    </section>    
+                 </div>
+             </main>
+             <main>
+                 <div class="content">
+                     <header>Professional Interests</header>
+                     <section class="interests">
+                         <button>Use me to see my professional interests</button>
+                         <ul class="professional-interests">
+                            <li>JavaScript Web Development</li>
+                            <li>Data Science</li>
+                            <li>Analyzing data using Python</li>
+                         </ul>
+                     </section>
+                 </div>
+             </main>
+            <div class="moving-text">
+                <marquee direction="down" width="800" height="200" behavior="alternate" style="border:double">
+                <marquee behavior="alternate">Thank you for coming!</marquee>
+                <marquee behavior="alternate">Have a great day!</marquee>
+            </div> 
+        </div>     
+    </body>
+</html>
